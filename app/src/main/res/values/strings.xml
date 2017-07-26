@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">WolneLektury</string>
+    <string name="wolne_lektury">Wolne Lektury</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="error_fetch_data_from_server">Błąd pobierania danych.</string>
+    <string name="error_fetch_data_from_database">Błąd pobierania danych z bazy</string>
+    <string name="error_server_code">Błędna odpowiedź z serwera</string>
+    <string name="error_no_author_books">Brak utworów wybranego autora.</string>
+    <string name="error_no_epoch_books">Brak utworów z wybranej epoki.</string>
+    <string name="error_no_saved_books">Brak zapisanych książek.</string>
+    <string name="error_no_epoch_info">Brak szczegółowych informacji.</string>
+    <string name="error_can_not_save_book">Nie można zapisać!</string>
+    <string name="error_can_not_read_online">Nie można czytać online!</string>
+    <string name="error_pdf_file_download">Błąd pobierania pliku.</string>
+    <string name="error_add_to_database">Błąd podczas dodawania do bazy</string>
+    <string name="error_broadcast_not_connected">Brak połączenia z internetem!</string>
+
+    <string name="title_book_list">Literatura</string>
+    <string name="title_author_list">Autorzy</string>
+    <string name="title_saved_book_list">Zapisane książki</string>
+    <string name="title_description">Description</string>
+    <string name="title_epochs_list">Epoki</string>
+    <string name="title_activity_reader">ReaderActivity</string>
+    <string name="title_settings">Ustawienia</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="title_favourite">Ulubione</string>
+
+    <string name="shared_element_book_image">book_image</string>
+    <string name="shared_element_book_author">book_author</string>
+    <string name="shared_element_book_title">book_title</string>
+
+    <string name="msg_autor_description">O autorze:</string>
+    <string name="msg_deleted">Usunięto</string>
+    <string name="msg_saved">Zapisano</string>
+    <string name="msg_book_is_in_database">Książka już jest w bazie</string>
+    <string name="msg_choose_app">Wybierz aplikacje</string>
+    <string name="msg_downloading_files">Pobieranie plików</string>
+
+    <string name="pdf_show_online_dialog_title">Tytuł</string>
+    <string name="pdf_show_online_dialog_question">Wybierz</string>
+    <string name="pdf_show_online_dialog_button_no">Nie</string>
+    <string name="pdf_show_online_dialog_button_yes">Tak</string>
+    <string name="pdf_show_local_progress_title">Progress tytuł</string>
+    <string name="pdf_show_local_progress_content">zawartość</string>
+
+    <string name="action_cancel">Anuluj</string>
+    <string name="action_save">Zapisz</string>
+</resources>

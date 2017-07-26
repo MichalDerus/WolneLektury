@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_saved_books"
+            android:icon="@drawable/ic_book_black_48dp"
+            android:checked="true"
+            android:title="@string/title_saved_book_list" />
+
+    <item android:title="Przeglądaj">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_literature"
+                android:icon="@drawable/ic_blank"
+                android:title="@string/title_book_list" />
+            <item
+                android:id="@+id/nav_authors"
+                android:title="@string/title_author_list" />
+            <item
+                android:id="@+id/nav_epochs"
+                android:title="@string/title_epochs_list" />
+            </group>
+        </menu>
+    </item>
+    </group>
+
+</menu>
